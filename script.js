@@ -66,8 +66,7 @@ publisher.innerHTML=currentBook.publisher;
 let releasedate= row.insertCell();
 releasedate.innerHTML=currentBook.released
 
-let characters=row.insertCell();
-characters.innerHTML=currentBook.characters[20]
+
     
 });
 booksDiv.appendChild(table);
